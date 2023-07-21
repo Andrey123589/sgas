@@ -1,13 +1,13 @@
-s = input("Вводи своё слово:")
-reverse = s[::-1]
+s = input("Вводи своё слово:") # Здесь вводится слово от пользователя при помощи input
+reverse = s[::-1]    # Создаю переменную, которая будет переворачивать слово 
 
-def palindrom(s):
-        if s[::1] == reverse:
+def palindrom(s):  # Функция
+        if s[::1] == reverse:  # Условие, если слово введенное от пользователя совпадает с его перевернутым вариантом, то возвращает True
             return True
 
-        if s[::1] != reverse:
+        if s[::1] != reverse: # Если не совпадает, то False
             return False
-print (palindrom(s))
-
+print (palindrom(s))  # Вывожу функцию 
+ 
 
 
