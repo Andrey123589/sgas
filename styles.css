@@ -1,0 +1,18 @@
+h1 {
+    background: green;
+}
+
+.paragraph-1 {
+    font-weight: bold;
+    font-family: Courier;
+}
+.paragraph-2 {
+    border: red dotted 5px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+    padding: 50px;
+}
