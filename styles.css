@@ -1,5 +1,6 @@
 h1 {
     background: green;
+    text-align: center;
 }
 
 .paragraph-1 {
@@ -16,3 +17,4 @@ h1 {
 
     padding: 50px;
 }
+
